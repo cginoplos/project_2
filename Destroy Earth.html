@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Destroy Earth</title>
+<link href="style1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	
+	
+	<img src="images/_0004_explosion.png" class="explosion" alt=""/>
+	
+<img src="images/_0007_destroy-earth.png"  alt=""/>
+	
+<img src="images/_0000_doomsong.png" class="doomsong" alt=""/>
+	
+	<!--<img src="images/_0001_rdoomsong.png" class="rdoomsong" onMouseOver="this.src='images/_0000_doomsong.png'"  onMouseOut="this.src='images/_0001_rdoomsong.png'" alt=""/> -->
+	
+	<img src="images/_0002_sonar.png" class="sonar" alt=""/>
+	
+	<!--<img src="images/_0003_rsonar.png" class="rsonar" onMouseOver="this.src='images/_0002_sonar.png'" onMouseOut="this.src='images/_0003_rsonar.png'" alt=""/>-->
+	
+<img src="images/_0005_button.png" class="button" alt=""/>
+		
+<img src="images/_0006_rbutton.png" class="rbutton" onMouseOver="this.src='images/_0005_button.png'" onClick="this.src='images/_0004_explosion.png'" onMouseOut="this.src='images/_0006_rbutton.png'" alt=""/>
+	
+
+<!--AUDIO-->
+	<!-- Audio -->
+<audio id="ButtonClick">
+  <source src="audio/heavymetal.mp3">
+</audio>
+
+
+<!-- Image -->
+<img src="images/_0001_rdoomsong.png" class="doomsong" onMouseOver="this.src='images/_0000_doomsong.png'" onclick="playAudio()" onMouseOut="this.src='images/_0001_rdoomsong.png'" alt="" />
+
+
+
+<!-- Onclick Script -->
+<script>
+  var x = document.getElementById("ButtonClick");
+
+  function playAudio() {
+    x.play();
+  }
+
+</script>
+
+	
+	
+		<!-- Audio SONAR BLIP -->
+<audio id="ButtonClick1">
+  <source src="audio/blip.mp3">
+</audio>
+
+
+<!-- Image -->
+<img src="images/_0003_rsonar.png" class="rsonar" onMouseOver="this.src='images/_0002_sonar.png'" onclick="playAudio1()" onMouseOut="this.src='images/_0003_rsonar.png'" alt="" />
+
+
+
+<!-- Onclick Script -->
+<script>
+  var y = document.getElementById("ButtonClick1");
+
+  function playAudio1() {
+    y.play();
+  }
+
+</script>
+
+	
+	
+</body>
+</html>

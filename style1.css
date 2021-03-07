@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+
+body{	
+margin: 0;
+padding: 0;
+}
+
+img{
+	position: absolute;
+}
+
+
+.rbutton{
+	left:698px;
+	top:13px;
+}
+
+.button{
+	left:698px;
+	top:13px;
+}
+
+.explosion{
+	left:698px;
+	top:13px;
+}
+
+.sonar{
+	left:473px;
+	top:620px;
+}
+
+.rsonar{
+	left:473px;
+	top:620px;
+}
+
+.doomsong{
+	left:1542px;
+	top:621px;
+}
+
+.rdoomsong{
+	left:1542px;
+	top:621px;
+}

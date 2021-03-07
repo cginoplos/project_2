@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+
+body{	
+margin: 0;
+padding: 0;
+}
+
+img{
+	position: absolute;
+}
+
+.rearth{
+	left:1383px;
+	top:4px;
+}
+
+.earth{
+	left:1383px;
+	top:4px;
+}
+
+.rspaceship{
+	left:178px;
+	top:92px;
+}
+
+.spaceship{
+	left:179px;
+	top:91px;
+}

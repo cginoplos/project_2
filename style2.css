@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+
+body{	
+margin: 0;
+padding: 0;
+}
+
+img{
+	position: absolute;
+}
+
+.outhouse{
+	left:951px;
+	top:593px;
+}
+.poop{
+	left:951px;
+	top:593px;
+}
+.routhouse{
+	left:951px;
+	top:593px;
+}
+
+.door{
+	left:438px;
+	top:661px;
+}
+.farmer{
+	left:438px;
+	top:661px;
+}
+.rdoor{
+	left:438px;
+	top:661px;
+}
+
+.rcow{
+	left:1356px;
+	top:681px;
+	transition:top 3s;
+
+}
+
+.rcow:hover{
+	top:450px;
+	
+}
+	
+
+.beam{	
+	left:1234px;
+	top:458px;
+}
